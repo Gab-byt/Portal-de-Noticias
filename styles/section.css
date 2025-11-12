@@ -1,43 +1,114 @@
+section header {
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px;
+  font: var(--text-span);
+}
+
+section header a {
+  justify-self: end;
+  align-items: center;
+  gap: 8px;
+}
+
+section header a span {
+  background-image: url(../assets/icons/ArrowRight-hover.svg);
+  width: 16px;
+  height: 16px;
+}
+
+section header a:hover span {
+  background-image: url(../assets/icons/ArrowRight-hover.svg);
+}
+
 #featured {
-    img {
-        height: 100%;
-        object-fit: cover;
-        
-    }
+  grid-area: featured;
+}
+
+#featured img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#weekly {
+  grid-area: weekly;
+}
+
+#weekly header > div {
+  grid-template-columns: repeat(4, 292px);
+}
+
+#weekly img {
+  height: 160px;
+}
+
+#ai {
+  grid-area: ai;
+}
+
+#ai img {
+  width: 176px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+#ai h3 {
+  margin-block: 8px 4px;
 }
 
 .card {
-    border-radius: 4px;
-    overflow: hidden;
-    position: relative;
-    &::before{
-     &::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        top: 50%;
-        background-color: white;
-        background: linear-gradient(
-            180deg,
-            transparent 0%,
-            #020617
-        );
-    }
-
-    figcaption {
-        position: absolute;
-        bottom: 0;
-
-        padding: 24px;
-
-        &:has(.text-lg) {
-            padding:12px;
-        }
-
-        h2 {
-            margin-top:8px;
-        }
-    }
-    }
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
 }
 
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: 50%;
+  background-color: white;
+  background: linear-gradient(180deg, transparent 0%, #020617);
+}
+
+.card figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 24px;
+}
+
+.card figcaption:has(.text-lg) {
+  padding: 12px;
+}
+
+.card figcaption h2 {
+  margin-top: 8px;
+}
+
+.card figcaption figure {
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+.card figcaption p {
+  margin-top: 8px;
+  font-weight: 800;
+}
+
+aside {
+  grid-area: aside;
+}
+
+#more {
+  margin-top: 32px;
+}
+
+#more h3 {
+  margin-top: 8px;
+}
+
+#more img {
+  width: 72px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
