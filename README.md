@@ -1,76 +1,40 @@
-Portal de Notícias
+📰 Portal de Notícias
 
-Um site de notícias moderno, elegante e responsivo, construído em HTML e CSS puro.
+Portal de notícias moderno e responsivo feito com HTML e CSS, simulando um site real de tecnologia.
 
-✅ Visão Geral
-
-Este projeto apresenta um portal de notícias fictício que mostra como estruturar uma página com destaques, seções temáticas e layout em grade (grid). A ideia é combinar um design sofisticado com tipografia limpa, cores sóbrias e boa hierarquia visual.
-
-🔍 Funcionalidades
-
-Layout responsivo, com contêiner centralizado (.container) e uso de CSS Grid.
-
-Seção de destaques (#featured) com imagem grande + cards menores.
-
-Seção temática de inteligência artificial (#ai) com artigos em formato “imagem + texto”.
-
-Barra de navegação principal (#primary) e secundária (#secondary).
-
-Uso de variáveis CSS (:root) para manter estilo consistente (cores, fontes, etc).
-
-Cartões de conteúdo (.card) com efeito de sobreposição via pseudo-elementos (::before) para dar profundidade visual.
-
-Acessibilidade básica: atributos alt em imagens, semântica com section, article, figure, figcaption.
-
-🛠️ Tecnologias Utilizadas
+⚙️ Tecnologias
 
 HTML5
 
-CSS3 (variáveis CSS, Grid, Flexbox)
+CSS3 (Grid, Flexbox, variáveis CSS)
 
-Fontes do Google Fonts: Inter Tight, Alice, Elms Sans, Roboto
+Google Fonts
 
-Estrutura de pastas simples:
+💡 Funcionalidades
 
-assets/      → ícones, imagens  
-styles/      → arquivo CSS principal  
-index.html   → página principal  
+Layout em grade com seções de destaque e categorias
 
-🚀 Como Rodar
+Cards de notícias com sobreposição e tags
 
-Clone este repositório:
+Navegação superior com menu e busca
+
+🚀 Como usar
+
+Clone o repositório:
 
 git clone https://github.com/Gab-byt/Portal-de-Noticias.git
 
 
-Entre na pasta do projeto:
+Abra o index.html no navegador.
 
-cd Portal-de-Noticias
+🔮 Melhorias futuras
 
+Responsividade total para mobile
 
-Abra o arquivo index.html no seu navegador de preferência.
-(Não há backend — é front-end estático.)
+Animações e efeitos de hover
 
-🎨 Personalização
+Adição de JavaScript para interatividade
 
-Para trocar a paleta de cores, edite as variáveis em :root no CSS (styles/index.css).
+🪪 Licença
 
-Para ajustar o layout ou adicionar cards, basta editar o HTML conforme o padrão existente.
-
-Quer adicionar responsividade maior? Use media queries no CSS para adaptar grelhas e tamanhos de imagem.
-
-🔧 Próximos Passos / Melhorias Possíveis
-
-Tornar o site 100% responsivo para dispositivos móveis.
-
-Implementar lazy-loading de imagens para melhorar performance.
-
-Adicionar interatividade com JavaScript (menu colapsável, filtro de categorias, etc).
-
-Inserir animações sutis (hover nos cards, transições de imagem, etc).
-
-Integrar com CMS ou API para conteúdo dinâmico.
-
-📄 Licença
-
-Este projeto está sob a licença MIT — sinta-se livre para usar, modificar e distribuir como quiseres.
+Projeto livre sob licença MIT.
