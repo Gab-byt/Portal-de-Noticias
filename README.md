@@ -1,40 +1,47 @@
-📰 Portal de Notícias
+# 📰 Portal de Notícias
 
-Portal de notícias moderno e responsivo feito com HTML e CSS, simulando um site real de tecnologia.
+> Um site simples de portal de notícias estático com HTML e CSS — ideal para demonstrar layout, estrutura e habilidades de markup e estilo.
 
-⚙️ Tecnologias
+## 🔎 Visão Geral
 
-HTML5
+O “Portal de Notícias” é um site estático que simula um portal editorial fictício. Serve como **ponto de partida para front-end**, demonstrando organização de HTML e CSS, responsividade e design de interface para conteúdos de notícia.
 
-CSS3 (Grid, Flexbox, variáveis CSS)
+Esse projeto foi construído com foco em simplicidade e clareza de estrutura — perfeito para quem está aprendendo e quer mostrar conhecimento prático de front-end.
 
-Google Fonts
+## ✅ Principais Características
 
-💡 Funcionalidades
+- Layout de página inicial com lista de notícias (títulos, destaques, miniaturas).  
+- Estrutura de pastas organizada para assets (imagens, estilos).  
+- Design responsivo básico (desktop / mobile).  
+- Uso de HTML sem frameworks — código limpo e sem dependências externas.  
+- Estilo próprio em CSS para formatação de cards, cabeçalho, rodapé e responsividade.
 
-Layout em grade com seções de destaque e categorias
+## 🛠️ Tecnologias Utilizadas
 
-Cards de notícias com sobreposição e tags
+- HTML5  
+- CSS3  
+- (Futuro: JavaScript para interatividade / filtros / animações)  
 
-Navegação superior com menu e busca
+## 🚀 Como Executar Localmente
 
-🚀 Como usar
+Basta clonar o repositório e abrir o arquivo `index.html` no navegador. Por ser um site estático, não há necessidade de servidor ou dependências:
 
-Clone o repositório:
-
+```bash
 git clone https://github.com/Gab-byt/Portal-de-Noticias.git
+cd Portal-de-Noticias
+open index.html  # ou clique duas vezes no arquivo no seu sistema
+```
+##📁 Estrutura do Projeto
 
+```
+/
+├── assets/       # imagens do portal
+├── styles/       # arquivos CSS
+├── index.html    # página principal
+├── .gitignore
+```
 
-Abra o index.html no navegador.
+##📄 Licença & Contribuições
 
-🔮 Melhorias futuras
-
-Responsividade total para mobile
-
-Animações e efeitos de hover
-
-Adição de JavaScript para interatividade
-
-🪪 Licença
-
-Projeto livre sob licença MIT.
+Esse projeto está aberto para quem quiser clonar, adaptar e aprender.
+Contribuições são bem-vindas: basta abrir uma issue ou pull request com sugestões de melhoria.
